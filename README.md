@@ -15,7 +15,7 @@ Python, pandas, matplotlib, seaborn, Jupyter Notebook
 4. Answered six questions with charts: rating distribution, top-rated restaurants, cost vs rating, popular cuisines, ratings over time, and reviewer experience
 
 ## Key findings
-- I found that the frequent ratings of the restaurants are between the 4 to 5 and then 1 to 3 are seen only by about 20 percentage rarely the .5 are given
+- I found that the frequent ratings of the restaurants are between the 4 to 5 and then 1 to 3 are seen only by about 20 percentage rarely the .5's are given
 - And people prefer North Indian, Chines and Continental food compared to other food styles
 - People prefer the food costs between the 0 to 1500 range is more rarely above the 1500    
 
