@@ -15,9 +15,10 @@ Python, pandas, matplotlib, seaborn, Jupyter Notebook
 4. Answered six questions with charts: rating distribution, top-rated restaurants, cost vs rating, popular cuisines, ratings over time, and reviewer experience
 
 ## Key findings
-- I found that the frequent ratings of the restaurants are between the 4 to 5 and then 1 to 3 are seen only by about 20 percentage rarely the .5's are given
-- And people prefer North Indian, Chines and Continental food compared to other food styles
-- People prefer the food costs between the 0 to 1500 range is more rarely above the 1500    
+- Ratings are mostly positive: about 63% of reviews are 4 stars or higher, and over a third are 3 stars or lower. Half-star ratings such as 4.5 are rare.
+- North Indian, Chinese and Continental are the most common cuisines among the restaurants.
+- Most restaurants charge under ₹1,500 for two, and only a few charge more.
+- Pricier restaurants tend to rate a little higher, but the link is loose and does not show that price causes better ratings.   
 
 ## Files
 - `zomato_analysis.ipynb`: the full analysis
