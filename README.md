@@ -1,43 +1,27 @@
-Zomato Hyderabad Restaurants: Python Data Analysis
+# Zomato Hyderabad Restaurants: Python Data Analysis
 
 Cleaning and exploring a messy Zomato dataset of 105 Hyderabad restaurants and about 10,000 customer reviews, using Python.
 
-Dataset
+## Dataset
+"Zomato Restaurants Hyderabad" from Kaggle (two CSV files: restaurant details and customer reviews).
 
-"Zomato Restaurants Hyderabad" from Kaggle. It has two CSV files:
+## Tools
+Python, pandas, matplotlib, seaborn, Jupyter Notebook
 
-Restaurant names and Metadata.csv: 105 restaurants with cost, cuisines, collections and timings
-Restaurant reviews.csv: 10,000 customer reviews with rating, reviewer info and date (May 2016 to May 2019)
-Tools
+## What I did
+1. Loaded and inspected both tables (size, data types, missing values, duplicates)
+2. Cleaned the data: removed 36 duplicate reviews, handled missing and invalid ratings, converted Cost, Rating and Time to proper types, and split reviewer info into two number columns
+3. Joined the two tables on restaurant name
+4. Answered six questions with charts: rating distribution, top-rated restaurants, cost vs rating, popular cuisines, ratings over time, and reviewer experience
 
-Python, pandas, matplotlib, seaborn, Jupyter Notebook (VS Code)
+## Key findings
+- I found that the frequent ratings of the restaurants are between the 4 to 5 and then 1 to 3 are seen only by about 20 percentage rarely the .5 are given
+- And people prefer North Indian, Chines and Continental food compared to other food styles
+- People prefer the food costs between the 0 to 1500 range is more rarely above the 1500    
 
-What I did
-Loaded and inspected both tables: size, data types, missing values and duplicates.
-Cleaned the data (10,000 reviews became 9,961):
-Removed duplicate rows
-Dropped reviews with no rating and one invalid rating ("Like")
-Converted Rating and Cost from text to numbers, and Time from text to dates
-Split the reviewer info ("3 Reviews , 427 Followers") into two number columns
-Left missing Collections and Timings values as they were, since the analysis doesn't use them
-Joined the two tables on restaurant name.
-Explored six questions with charts and wrote up what each one shows:
-How are ratings distributed?
-Which restaurants have the highest average rating?
-Do pricier restaurants get better ratings?
-Which cuisines are most common?
-Have ratings changed over time?
-Do experienced reviewers rate differently?
-Key findings
-Ratings are polarized: 5-star is the most common rating, but 1-star reviews outnumber 2-star ones.
-Only restaurants with 50 or more reviews were ranked, so a few ratings couldn't push a restaurant to the top.
-Pricier restaurants tend to rate a little higher, but the link is loose and does not show that price causes better ratings.
-North Indian is the most common cuisine, listed by about 58% of restaurants, followed by Chinese.
-Monthly ratings stayed fairly flat from late 2018 to early 2019. Months with fewer than 30 reviews were excluded.
-Reviewer experience makes little difference to the rating given.
-Files
-zomato_analysis.ipynb: the full analysis with code, charts and notes
-Restaurant names and Metadata.csv and Restaurant reviews.csv: the raw data
-Author
+## Files
+- `zomato_analysis.ipynb`: the full analysis
+- Two CSV files: the raw data
 
-Sai Krishna | LinkedIn
+## Author
+Sai Krishna | www.linkedin.com/in/sai-krishna-thotte-80253831b
